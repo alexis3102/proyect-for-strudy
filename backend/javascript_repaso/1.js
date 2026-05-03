@@ -1,13 +1,13 @@
 "Crear una función que invierta un string sin usar .reverse()."
 
-function invert_name (x){
+function inver_name(x){
     if (x === null){
         console.log("no hay nada")
     }
     else{
-        let resultado = ""
         const numero = x.length
-        for (let i = numero - 1; i >= 0; i--){
+        resultado = "";
+        for (i = numero - 1; i >= 0; i--){
             resultado += x[i]
         }
 
@@ -15,5 +15,6 @@ function invert_name (x){
     }
 }
 
-let llamar = invert_name("legolas")
-console.log(llamar)
+peticion = inver_name("johan")
+imprimir = peticion
+console.log(imprimir)
