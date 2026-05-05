@@ -15,6 +15,6 @@ function inver_name(x){
     }
 }
 
-peticion = inver_name("johan")
+peticion = inver_name("donal")
 imprimir = peticion
 console.log(imprimir)

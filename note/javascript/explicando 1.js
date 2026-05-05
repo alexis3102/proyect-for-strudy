@@ -21,3 +21,22 @@ function invert_name (x){
 let llamar = invert_name("johan")
 let mostrar = palabra 
 console.log(mostrar)
+
+
+
+
+
+
+
+
+
+for(let e = 0; e <= numero;){
+        let almacen_true = []
+        almacen_palabra_buscar =+ palabras[e];
+
+
+        
+        if(almacen_palabra_buscar === palabras[e]){
+
+        }
+    }
